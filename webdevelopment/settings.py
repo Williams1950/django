@@ -76,11 +76,12 @@ WSGI_APPLICATION = 'webdevelopment.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'telusco',
-        'USER': 'root',
-        'PASSWORD': 'root',
-        'HOST': 'localhost'
+        'ENGINE': '',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': ''
+    
     }
 }
 
