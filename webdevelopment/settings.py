@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'webdevelopment.wsgi.application'
 DATABASES = {
     'default': { 
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'djangopostgresserver',
+        'NAME': 'django',
         'USER': 'django@djangopostgresserver',
         'PASSWORD': 'Solution1950$',
         'HOST': 'djangopostgresserver.postgres.database.azure.com',
