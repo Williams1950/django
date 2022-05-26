@@ -75,12 +75,13 @@ WSGI_APPLICATION = 'webdevelopment.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': '',
-        'NAME': '',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': ''
+    'default': { 
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'djangopostgresserver',
+        'USER': 'django@djangopostgresserver',
+        'PASSWORD': 'Solution1950$',
+        'HOST': 'djangopostgresserver.postgres.database.azure.com',
+        'PORT': '5432'
     
     }
 }
