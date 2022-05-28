@@ -81,7 +81,8 @@ DATABASES = {
         'USER': 'django@djangopostgresserver',
         'PASSWORD': 'Solution1950$',
         'HOST': 'djangopostgresserver.postgres.database.azure.com',
-        'PORT': '5432'
+        'PORT': '5432',
+        'OPTIONS': {'sslmode': 'require'}
     
     }
 }
